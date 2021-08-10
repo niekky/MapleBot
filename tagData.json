@@ -1,0 +1,38 @@
+{"corpus":{
+    "text":[
+        "Tôi đang làm Toán",
+        "Văn học đôi khi dễ buồn ngủ",
+        "Tố Hữu là một trong tác giả nổi tiếng trong văn học",
+        "Toán lớp 12 thực sự rất hay",
+        "Tôi tên là Kiên",
+        "Tên tôi là John",
+        "Vật lý là nổi ác mộng",
+        "Newton khám phá ra lực hấp dẫn",
+        "Pomodoro giúp tiết kiệm thời gian của người học hơn",
+        "Feynman là nhà vật lý lừng danh nhất thời đại",
+        "Gauss là bậc thầy của toán học",
+        "Hóa học khó quá, không bao giờ lấy trên tám được",
+        "Toán 12 khó với phần hàm số",
+        "Toán 11 rất phức tạp với xác xuất",
+        "Xác xuất Bayes là phiên bản nâng cấp của xác xuất điều kiện",
+        "Chúng tôi đang hoạt động dự án cho cuộc thi TechGenius"
+    ],
+    "NERtag":[
+        ["o","o","o","B-mh"],
+        ["B-mh","I-mh","o","o","o","o","o"],
+        ["B-name","I-name","o","o","o","o","o","o","o","o","o","o"],
+        ["B-mh","o","o","o","o","o","o"],
+        ["o","o","o","B-name"],
+        ["o","o","o","B-name"],
+        ["B-mh","I-mh","o","o","o","o"],
+        ["B-name","o","o","o","B-obj","I-obj","I-obj"],
+        ["B-obj","o","o","o","o","o","o","o","o","o"],
+        ["B-name","o","o","o","o","o","o","o","o","o"],
+        ["B-name","o","o","o","o","B-mh","I-mh"],
+        ["B-mh","I-mh","o","o","o","o","o","o","o","o","o"],
+        ["B-mh","I-mh","o","o","o","B-obj","I-obj"],
+        ["B-mh","I-mh","o","o","o","o","B-obj","I-obj"],
+        ["B-obj","I-obj","B-name","o","o","o","o","o","o","B-obj","I-obj","I-obj","I-obj"],
+        ["o","o","o","o","o","o","o","o","o","o","B-name"]
+    ]
+}}
