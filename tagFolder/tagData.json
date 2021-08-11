@@ -20,19 +20,13 @@
             "Chạy deadline rất khắc nghiệt",
             "Nên đi ngủ trước 10 giờ",
             "Chơi nhạc cụ giúp thư giãn",
-            "Học nhiều để làm gì",
-            "Một năm cúp điện một lần",
-            "Mình nên đi ngủ",
             "Chơi game rất tốt cho sức khỏe",
-            "Mình đang làm gì vậy",
             "Học toán nhiều làm tổn hại thời gian chơi",
             "Rảnh thì nên coi Veritasium hay Ted",
             "Hôm nay quên quét nhà rồi",
             "Shopee miến phí giao hàng mọi lúc mọi nơi",
-            "Mình đang hơi rảnh thì phải",
             "Vật lý là thứ mình suy ngẫm nhưng không làm",
             "Bữa nào nên thử nấu ăn nhỉ",
-            "Sao mình không thuê đứa khác làm",
             "Sao mấy thứ việt nam thường cringe quá không hiểu",
             "50 câu toán còn phải làm",
             "Cuối cùng cũng đủ 20 câu",
@@ -44,7 +38,14 @@
             "Chào các bạn, tên mình là Richard Walker và tôi đầu 20 tuổi.",
             "Tôi đã sống ở Thành phố Hồ Chí Minh được 5 năm, hoặc chúng ta còn có thể gọi là Sài Gòn.", "Nếu bạn muốn thì tự làm đi", "Hãy tự hỏi bản thân bạn đang làm gì", "Tôi sẽ vui nhưng không phải hôm nay", "Tôi thích tiết kiệm thời gian và làm việc", "Đôi khi tốt nhất là nên im lặng", "Đôi khi cần đi ra ngoài nhất là thời buổi này", "Mỗi phút ở nhà 60 giây trôi qua",
             "Khóc là dấu hiệu mạnh mẽ", "Đừng sợ hãi tại ai cũng vậy", "Tự bơi đi", "Cuối ngày cũng hối hận thôi", "Trời tối nhất có sao sáng nhất", "Đôi khi lựa chọn sai lại đúng", "Quăng tôi vào bầy sói tôi sẽ quay lại với cả bầy", "Buông thả đi", "Tin tôi mọi thứ sẽ ok", "Làm gì bạn hạnh phúc ấy", "Phải đánh thắng ngày đi học mới hạnh phúc", "Tôi cười tại họ giống nhau cả", "Số 20 là số tốt đẹp",
-            "Máy sắp hết pin", "Cung tên chỉ bắn được một lần bỏ đi", "Người Hoa ghét số 13", "Nói vậy cũng nói", "Biết làm gì giờ", "Tôi cười như thằng điên khi nghĩ về toán", "Tôi cần được thoải mái mọi lúc mọi nơi", "Tôi đã thay đổi", "Gửi mail chưa ta", "Số 30 là con điểm đậu vào bách khoa"
+            "Máy sắp hết pin", "Cung tên chỉ bắn được một lần bỏ đi", "Người Hoa ghét số 13", "Nói vậy cũng nói", "Biết làm gì giờ", "Tôi cười như thằng điên khi nghĩ về toán", "Tôi cần được thoải mái mọi lúc mọi nơi", "Tôi đã thay đổi", "Gửi mail chưa ta", "Số 30 là con điểm đậu vào bách khoa",
+            "Tôi đã sống ở Thành phố Hồ Chí Minh được 5 năm, hoặc chúng ta còn có thể gọi là Sài Gòn.",
+            "Mình tên là Kiên và Mình sống ở Sài Gòn",
+            "Bạn thích môn học gì",
+            "Tôi tên là Nguyễn Trung Kiên và hôm nay tôi 17 tuổi",
+            "Tôi rất thích môn vật lý",
+            "Bên cạnh đó, nó cũng là một trợ thủ đắc lực cho những môn học khác như Vật lý hoặc Hóa học",
+            "Trong nhiều môn học, tôi thực sự thích môn Toán."
         ],
         "NERtag": [
             ["o", "o", "o", "B-mh"],
@@ -66,19 +67,14 @@
             ["o", "B-obj", "o", "B-adj", "I-adj"],
             ["o", "o", "B-obj", "o", "B-num", "B-time"],
             ["o", "B-obj", "I-obj", "o", "o", "o"],
-            ["B-num", "o", "o", "B-obj", "B-num", "o"],
-            ["B-obj", "o", "B-v", "B-obj"],
             ["B-v", "B-obj", "o", "B-adj", "o", "B-obj", "I-obj"],
-            ["B-obj", "o", "B-v", "o", "o"],
             ["B-v", "B-mh", "B-adj", "o", "B-adj", "I-adj", "B-obj", "I-obj", "B-v"],
             ["B-adj", "o", "o", "B-v", "B-name", "o", "B-name"],
             ["o", "o", "B-adj", "B-v", "B-obj", "o"],
             ["B-name", "B-adj", "I-adj", "B-v", "B-obj", "o", "o", "o", "o"],
-            ["B-obj", "o", "o", "B-adj", "o", "o"],
             ["B-mh", "I-mh", "o", "B-obj", "B-obj", "B-v", "I-v", "o", "o", "B-v"],
             ["o", "o", "o", "o", "B-v", "o", "o"],
-            ["o", "B-obj", "o", "B-v", "B-obj", "B-v", "o"],
-            ["o", "o", "B-obj", "B-name", "I-name", "o", "B-adj", "o", "o", "o"],
+            ["o", "o", "o", "B-name", "I-name", "o", "B-adj", "o", "o", "o"],
             ["B-num", "o", "B-mh", "o", "o", "B-v"],
             ["B-adj", "I-adj", "o", "B-adj", "B-num", "o"],
             ["B-mh", "I-mh", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o"],
@@ -117,9 +113,16 @@
             ["o", "o", "o", "B-adj", "I-adj", "o", "o", "o", "o"],
             ["o", "o", "B-v", "I-v"],
             ["B-v", "B-obj", "o", "o"],
-            ["o", "B-num", "o", "B-obj", "B-v", "o", "o", "B-name", "I-name"]
+            ["o", "B-num", "o", "B-obj", "B-v", "o", "o", "B-name", "I-name"],
 
 
+            ["o", "o", "o", "o", "o", "o", "B-location", "I-location", "I-location", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "B-location", "I-location"]
+            ,["o", "o", "o", "B-name", "o", "o", "o", "o", "B-location", "I-location"],
+            ["o", "o", "o", "B-mh", "I-mh"],
+            ["o", "o", "o", "B-name", "I-name", "I-name", "o", "o", "o", "o", "B-num", "o"],
+            ["o", "o", "o", "o", "B-mh", "I-mh"],
+            ["o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "B-mh", "I-mh", "o", "B-mh", "I-mh"],
+            ["o", "o", "o", "o", "o", "o", "o", "o", "o", "B-mh"]
         ]
     }
 }
