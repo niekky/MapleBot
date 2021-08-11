@@ -42,7 +42,9 @@
             "Tên tôi là Andrew Wilson. Tôi 30 tuổi và độc thân. Tôi thực chất đến từ San Francisco.",
             "Chào các bạn, tên mình là Richard Walker, các cậu có thể gọi mình là Richard.",
             "Chào các bạn, tên mình là Richard Walker và tôi đầu 20 tuổi.",
-            "Tôi đã sống ở Thành phố Hồ Chí Minh được 5 năm, hoặc chúng ta còn có thể gọi là Sài Gòn."
+            "Tôi đã sống ở Thành phố Hồ Chí Minh được 5 năm, hoặc chúng ta còn có thể gọi là Sài Gòn.", "Nếu bạn muốn thì tự làm đi", "Hãy tự hỏi bản thân bạn đang làm gì", "Tôi sẽ vui nhưng không phải hôm nay", "Tôi thích tiết kiệm thời gian và làm việc", "Đôi khi tốt nhất là nên im lặng", "Đôi khi cần đi ra ngoài nhất là thời buổi này", "Mỗi phút ở nhà 60 giây trôi qua",
+            "Khóc là dấu hiệu mạnh mẽ", "Đừng sợ hãi tại ai cũng vậy", "Tự bơi đi", "Cuối ngày cũng hối hận thôi", "Trời tối nhất có sao sáng nhất", "Đôi khi lựa chọn sai lại đúng", "Quăng tôi vào bầy sói tôi sẽ quay lại với cả bầy", "Buông thả đi", "Tin tôi mọi thứ sẽ ok", "Làm gì bạn hạnh phúc ấy", "Phải đánh thắng ngày đi học mới hạnh phúc", "Tôi cười tại họ giống nhau cả", "Số 20 là số tốt đẹp",
+            "Máy sắp hết pin", "Cung tên chỉ bắn được một lần bỏ đi", "Người Hoa ghét số 13", "Nói vậy cũng nói", "Biết làm gì giờ", "Tôi cười như thằng điên khi nghĩ về toán", "Tôi cần được thoải mái mọi lúc mọi nơi", "Tôi đã thay đổi", "Gửi mail chưa ta", "Số 30 là con điểm đậu vào bách khoa"
         ],
         "NERtag": [
             ["o", "o", "o", "B-mh"],
@@ -85,7 +87,39 @@
             ["o", "o", "o", "B-name", "I-name", "o", "B-num", "o", "o", "o", "o", "o", "o", "o", "o", "o", "B-location", "I-location"],
             ["o", "o", "o", "o", "o", "o", "B-name", "I-name", "o", "o", "o", "o", "o", "o", "o", "B-name"],
             ["o", "o", "o", "o", "o", "o", "B-name", "I-name", "o", "o", "o", "B-num", "o"],
-            ["o", "o", "o", "o", "o", "o", "B-location", "I-location", "I-location", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "B-location", "I-location"]
+            ["o", "o", "o", "o", "o", "o", "B-location", "I-location", "I-location", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "B-location", "I-location"],
+            ["o", "o", "o", "o", "o", "B-v", "o"],
+            ["o", "o", "B-v", "o", "o", "o", "o", "B-v", "o"],
+            ["o", "o", "B-adj", "o", "o", "o", "o", "o"],
+            ["o", "B-adj", "B-v", "I-v", "o", "o", "o", "B-v", "I-v"],
+            ["o", "o", "B-adj", "o", "o", "o", "B-v", "I-v"],
+            ["o", "o", "o", "B-v", "o", "o", "o", "o", "o", "o", "o"],
+            ["B-num", "o", "o", "B-obj", "B-num", "o", "B-v", "o"],
+            ["B-v", "o", "o", "o", "o", "o"],
+            ["o", "B-adj", "I-adj", "o", "o", "o", "o"],
+            ["o", "B-v", "o"],
+            ["o", "o", "o", "B-v", "I-v", "o"],
+            ["B-obj", "o", "o", "B-obj", "o", "o", "o"],
+            ["o", "o", "B-obj", "I-obj", "o", "o", "B-adj"],
+            ["B-v", "o", "o", "o", "B-obj", "o", "o", "B-v", "o", "o", "o", "B-obj"],
+            ["B-v", "I-v", "o"],
+            ["B-v", "o", "o", "o", "o", "o"],
+            ["B-v", "o", "o", "B-adj", "I-adj", "o"],
+            ["o", "B-v", "o", "B-obj", "B-v", "B-v", "o", "B-adj", "I-adj"],
+            ["o", "B-v", "o", "o", "B-adj", "o", "o"],
+            ["o", "B-num", "o", "B-obj", "B-adj", "I-adj"],
+            ["B-obj", "o", "o", "B-obj"],
+            ["B-obj", "I-obj", "o", "B-v", "o", "B-num", "o", "o", "o"],
+            ["o", "B-name", "B-v", "o", "B-num"],
+            ["B-v", "o", "o", "B-v"],
+            ["o", "B-v", "o", "o"],
+            ["o", "B-v", "o", "o", "B-adj", "o", "B-v", "o", "B-mh"],
+            ["o", "o", "o", "B-adj", "I-adj", "o", "o", "o", "o"],
+            ["o", "o", "B-v", "I-v"],
+            ["B-v", "B-obj", "o", "o"],
+            ["o", "B-num", "o", "B-obj", "B-v", "o", "o", "B-name", "I-name"]
+
+
         ]
     }
 }
