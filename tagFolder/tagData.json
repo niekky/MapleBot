@@ -64,7 +64,6 @@
             ["o", "B-obj", "o", "B-adj", "I-adj"],
             ["o", "o", "B-obj", "o", "B-num", "B-time"],
             ["o", "B-obj", "I-obj", "o", "o", "o"],
-            ["B-obj", "o", "B-v", "B-obj"],
             ["B-v", "B-obj", "o", "B-adj", "o", "B-obj", "I-obj"],
             ["B-v", "B-mh", "B-adj", "o", "B-adj", "I-adj", "B-obj", "I-obj", "B-v"],
             ["B-adj", "o", "o", "B-v", "B-name", "o", "B-name"],
