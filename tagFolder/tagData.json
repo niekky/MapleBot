@@ -35,7 +35,14 @@
             "Sao mình không thuê đứa khác làm",
             "Sao mấy thứ việt nam thường cringe quá không hiểu",
             "50 câu toán còn phải làm",
-            "Cuối cùng cũng đủ 20 câu"
+            "Cuối cùng cũng đủ 20 câu",
+            "Môn học là tập hợp những tri thức về một lĩnh vực chuyên môn cụ thể",
+            "Môn học khủng nhất với học sinh có lẽ là hóa học",
+            "Tuy nhiên đây cũng là môn học yêu thích của tôi.",
+            "Tên tôi là Andrew Wilson. Tôi 30 tuổi và độc thân. Tôi thực chất đến từ San Francisco.",
+            "Chào các bạn, tên mình là Richard Walker, các cậu có thể gọi mình là Richard.",
+            "Chào các bạn, tên mình là Richard Walker và tôi đầu 20 tuổi.",
+            "Tôi đã sống ở Thành phố Hồ Chí Minh được 5 năm, hoặc chúng ta còn có thể gọi là Sài Gòn."
         ],
         "NERtag": [
             ["o", "o", "o", "B-mh"],
@@ -56,8 +63,7 @@
             ["o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "B-name"],
             ["o", "B-obj", "o", "B-adj", "I-adj"],
             ["o", "o", "B-obj", "o", "B-num", "B-time"],
-            ["o", "B-obj", "I-obj", "o", "B-act", "I-act"],
-            ["B-act", "o", "o", "o", "o"],
+            ["o", "B-obj", "I-obj", "o", "o", "o"],
             ["B-num", "o", "o", "B-obj", "B-num", "o"],
             ["B-obj", "o", "B-v", "B-obj"],
             ["B-v", "B-obj", "o", "B-adj", "o", "B-obj", "I-obj"],
@@ -72,7 +78,14 @@
             ["o", "B-obj", "o", "B-v", "B-obj", "B-v", "o"],
             ["o", "o", "B-obj", "B-name", "I-name", "o", "B-adj", "o", "o", "o"],
             ["B-num", "o", "B-mh", "o", "o", "B-v"],
-            ["B-adj", "I-adj", "o", "B-adj", "B-num", "o"]
+            ["B-adj", "I-adj", "o", "B-adj", "B-num", "o"],
+            ["B-mh", "I-mh", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o"],
+            ["B-mh", "I-mh", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o"],
+            ["o", "o", "o", "o", "o", "B-mh", "I-mh", "o", "o", "o", "o"],
+            ["o", "o", "o", "B-name", "I-name", "o", "B-num", "o", "o", "o", "o", "o", "o", "o", "o", "o", "B-location", "I-location"],
+            ["o", "o", "o", "o", "o", "o", "B-name", "I-name", "o", "o", "o", "o", "o", "o", "o", "B-name"],
+            ["o", "o", "o", "o", "o", "o", "B-name", "I-name", "o", "o", "o", "B-num", "o"],
+            ["o", "o", "o", "o", "o", "o", "B-location", "I-location", "I-location", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "B-location", "I-location"]
         ]
     }
 }
