@@ -114,10 +114,8 @@
             ["o", "o", "B-v", "I-v"],
             ["B-v", "B-obj", "o", "o"],
             ["o", "B-num", "o", "B-obj", "B-v", "o", "o", "B-name", "I-name"],
-
-
-            ["o", "o", "o", "o", "o", "o", "B-location", "I-location", "I-location", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "B-location", "I-location"]
-            ,["o", "o", "o", "B-name", "o", "o", "o", "o", "B-location", "I-location"],
+            ["o", "o", "o", "o", "o", "o", "B-location", "I-location", "I-location", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "B-location", "I-location"],
+            ["o", "o", "o", "B-name", "o", "o", "o", "o", "B-location", "I-location"],
             ["o", "o", "o", "B-mh", "I-mh"],
             ["o", "o", "o", "B-name", "I-name", "I-name", "o", "o", "o", "o", "B-num", "o"],
             ["o", "o", "o", "o", "B-mh", "I-mh"],
