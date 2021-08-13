@@ -1,0 +1,135 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": [
+                "Chào bạn", 
+                "Có ai ở đó không vậy ?", 
+                "Hello", 
+                "Alo", 
+                "Chào",
+                "Ai ở đó thế ?",
+                "Có ai ở đó không thế ?",
+                "Tên mình là Kiên",
+                "Mình tên là Nick"
+            ],
+     "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+     "entities": ["B-name"]
+    },
+    {"tag": "2ndgreeting",
+        "patterns":[
+                    "Hôm nay bạn sao rồi",
+                    "Hôm nay sao rồi",
+                    "Thế nào",
+                    "Khỏe không",
+                    "Bạn như thế nào",
+                    "Bạn sao rồi",
+                    "Sao rồi",
+                    "Như thế nào rồi"
+                ],
+        "responses":["Tuyệt","Tuyệt lắm","Rất tốt"]
+    },
+    {"tag": "goodbye",
+     "patterns": [
+                    "bye", 
+                    "Gặp lại sau", 
+                    "Bye bạn nhé", 
+                    "Tôi đi đây", 
+                    "Tí gặp lại",
+                    "Tạm biệt nhé",
+                    "Bye nha",
+                    "Bye bạn",
+                    "thôi bye nha",
+                    "Bận rồi đi đây",
+                    "có việc rồi đi đây"
+                ],
+     "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+    },
+    {"tag": "name",
+     "patterns": [
+                    "Tên bạn là gì", 
+                    "Tôi có thể gọi bạn là gì thế ?", 
+                    "Tên ?",
+                    "Mình có thể gọi bạn như thế nào nè ?",
+                    "Bạn tên gì thế ?",
+                    "Bạn tên gì vậy",
+                    "Tên cậu là gì vậy",
+                    "Cậu tên gì",
+                    "Mình có thể gọi bạn sao nhỉ",
+                    "Tên cậu là gì thế"
+                ],
+     "responses": ["SmartFox :>", "Mình tên là Fox", "Fox,SmartFox"]
+    },
+    {"tag": "aboutme",
+     "patterns":[
+                    "Bạn thường làm gì",
+                    "Mình biết thêm về bạn được không ?",
+                    "Bạn có thể làm gì vậy ?",
+                    "Giới thiệu bạn đi",
+                    "Mình biết đôi chút về bạn được không"
+                ],
+     "responses":["I can help you whenever you need","I can help you anytime"]
+    },
+    {"tag": "where",
+        "patterns":[
+                    "Bạn đến từ đâu vậy ?",
+                    "Từ đâu ra thế ?",
+                    "Bạn được tạo ra hay là ?",
+                    "Bạn từ đâu thế ?",
+                    "Ai tạo ra cậu vậy",
+                    "Cậu đến từ đâu thế"
+                    ],
+        "responses":["I can help you whenever you need","I like books","I can help you anytime"]
+    },
+    {"tag": "user_emotion",
+        "patterns":[
+                    "Buồn quá",
+                    "Tôi khá là mệt",
+                    "Hiện tại tôi khá là căng thẳng",
+                    "Trầm cảm"
+                ],
+        "responses":["Bạn làm rất tốt rồi","Thư giản đi","Cố lên"]
+    },
+    {
+        "tag": "Assist",
+        "patterns":["Giúp mình tí",
+                    "Giúp mình được không",
+                    "Giúp mình với",
+                    "Giúp mình cái này được không"
+                ],
+        "responses":["Thử cách cách này xem","Bạn xem thử đi"],
+        "entities":["B-mh","Topic"],
+        "askback":["Bạn gặp vấn đề gì vậy","Mình biết thêm vấn đề của bạn được không"]
+    },
+    {
+        "tag":"guideApp",
+        "patterns":[
+                    "Ứng dụng này làm được gì vậy",
+                    "Cho mình xem xung quanh app đi",
+                    "App này lạ quá",
+                    "vòng quanh ứng dụng này có gì vậy",
+                    "Mình còn lạ quá",
+                    "Ứng dụng làm được gì"
+                ],
+        "responses":[]
+    },
+    {
+        "tag":"askingme",
+        "patterns":[
+                    "Bạn thích không ?",
+                    "Bạn biết không ?",
+                    "Bạn có bao giờ ?",
+                    "Bạn có nghe qua chưa",
+                    "Bạn có nghe tới",
+                    "Bạn biết chưa",
+                    "Bạn có bao giờ chưa"
+                ],
+        "responses":{
+            "askback":["@entity là gì thế ?","Mình chưa hiểu về @entity lắm","@entity là sao vậy"],
+            "positive":["Có","Có chứ","Yessss","Cóoooo"],
+            "negative":[]
+        },
+        "entities":["B-obj","B-mh","B-location","B-name"]
+        
+    }
+
+]
+}
