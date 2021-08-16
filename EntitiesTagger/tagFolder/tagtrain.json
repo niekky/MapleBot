@@ -648,13 +648,13 @@
       "tag": ["B-name", "o", "B-obj", "I-obj", "o", "o"]
    }, {
       "sentence": "Tôi đang sống ở Hồ Chí Minh",
-      "tag": ["o", "o", "B-v", "o", "B-name", "I-name", "I-name"]
+      "tag": ["o", "o", "B-v", "o", "B-location", "I-location", "I-location"]
    }, {
       "sentence": "Việt Nam là quốc tịch của tôi",
-      "tag": ["B-name", "I-name", "o", "B-obj", "I-obj", "o", "o"]
+      "tag": ["B-location", "I-location", "o", "B-obj", "I-obj", "o", "o"]
    }, {
       "sentence": "Bài văn này khó quá bỏ đi",
-      "tag": ["B-obj", "B-mh", "o", "B-adj", "o", "B-v", "o"]
+      "tag": ["B-mh-obj", "B-mh", "o", "B-adj", "o", "B-v", "o"]
    }, {
       "sentence": "Tôi mới mua đàn mới",
       "tag": ["o", "o", "B-v", "B-obj", "o"]
