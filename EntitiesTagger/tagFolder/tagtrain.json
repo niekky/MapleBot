@@ -1,627 +1,688 @@
-[
-    {
-       "sentence":"Tôi đang làm Toán",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "B-mh"
-       ]
-    },
-    {
-       "sentence":"Văn học đôi khi dễ buồn ngủ",
-       "tag":[
-          "B-mh",
-          "I-mh",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Tố Hữu là một trong tác giả nổi tiếng trong văn học",
-       "tag":[
-          "B-name",
-          "I-name",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Toán lớp 12 thực sự rất hay",
-       "tag":[
-          "B-mh",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Tôi tên là Kiên",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "B-name"
-       ]
-    },
-    {
-       "sentence":"Tên tôi là John",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "B-name"
-       ]
-    },
-    {
-       "sentence":"Vật lý là nổi ác mộng",
-       "tag":[
-          "B-mh",
-          "I-mh",
-          "o",
-          "o",
-          "o",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Newton khám phá ra lực hấp dẫn",
-       "tag":[
-          "B-name",
-          "o",
-          "o",
-          "o",
-          "B-obj",
-          "I-obj",
-          "I-obj"
-       ]
-    },
-    {
-       "sentence":"Pomodoro giúp tiết kiệm thời gian của người học hơn",
-       "tag":[
-          "B-obj",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Feynman là nhà vật lý lừng danh nhất thời đại",
-       "tag":[
-          "B-name",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Gauss là bậc thầy của toán học",
-       "tag":[
-          "B-name",
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-mh",
-          "I-mh"
-       ]
-    },
-    {
-       "sentence":"Hóa học khó quá, không bao giờ lấy trên tám được",
-       "tag":[
-          "B-mh",
-          "I-mh",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Toán 12 khó với phần hàm số",
-       "tag":[
-          "B-mh",
-          "I-mh",
-          "o",
-          "o",
-          "o",
-          "B-obj",
-          "I-obj"
-       ]
-    },
-    {
-       "sentence":"Toán 11 rất phức tạp với xác xuất",
-       "tag":[
-          "B-mh",
-          "I-mh",
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-obj",
-          "I-obj"
-       ]
-    },
-    {
-       "sentence":"Xác xuất Bayes là phiên bản nâng cấp của xác xuất điều kiện",
-       "tag":[
-          "B-obj",
-          "I-obj",
-          "B-name",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-obj",
-          "I-obj",
-          "I-obj",
-          "I-obj"
-       ]
-    },
-    {
-       "sentence":"Chúng tôi đang hoạt động dự án cho cuộc thi TechGenius",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-name"
-       ]
-    },
-    {
-       "sentence":"Chạy deadline rất khắc nghiệt",
-       "tag":[
-          "o",
-          "B-obj",
-          "o",
-          "B-adj",
-          "I-adj"
-       ]
-    },
-    {
-       "sentence":"Nên đi ngủ trước 10 giờ",
-       "tag":[
-          "o",
-          "o",
-          "B-obj",
-          "o",
-          "B-num",
-          "B-time"
-       ]
-    },
-    {
-       "sentence":"Chơi nhạc cụ giúp thư giãn",
-       "tag":[
-          "o",
-          "B-obj",
-          "I-obj",
-          "o",
-          "o",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Chơi game rất tốt cho sức khỏe",
-       "tag":[
-          "B-v",
-          "B-obj",
-          "o",
-          "B-adj",
-          "o",
-          "B-obj",
-          "I-obj"
-       ]
-    },
-    {
-       "sentence":"Học toán nhiều làm tổn hại thời gian chơi",
-       "tag":[
-          "B-v",
-          "B-mh",
-          "B-adj",
-          "o",
-          "B-adj",
-          "I-adj",
-          "B-obj",
-          "I-obj",
-          "B-v"
-       ]
-    },
-    {
-       "sentence":"Rảnh thì nên coi Veritasium hay Ted",
-       "tag":[
-          "B-adj",
-          "o",
-          "o",
-          "B-v",
-          "B-name",
-          "o",
-          "B-name"
-       ]
-    },
-    {
-       "sentence":"Hôm nay quên quét nhà rồi",
-       "tag":[
-          "o",
-          "o",
-          "B-adj",
-          "B-v",
-          "B-obj",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Shopee miến phí giao hàng mọi lúc mọi nơi",
-       "tag":[
-          "B-name",
-          "B-adj",
-          "I-adj",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Vật lý là thứ mình suy ngẫm nhưng không làm",
-       "tag":[
-          "B-mh",
-          "I-mh",
-          "o",
-          "o",
-          "o",
-          "B-v",
-          "I-v",
-          "o",
-          "o",
-          "B-v"
-       ]
-    },
-    {
-       "sentence":"Bữa nào nên thử nấu ăn nhỉ",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-v",
-          "o",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Sao mấy thứ việt nam thường cringe quá không hiểu",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "B-country",
-          "I-country",
-          "o",
-          "B-adj",
-          "o",
-          "o",
-          "o"
-       ]
-    },
-    {
-       "sentence":"50 câu toán còn phải làm",
-       "tag":[
-          "B-num",
-          "o",
-          "B-mh",
-          "o",
-          "o",
-          "B-v"
-       ]
-    },
-    {
-       "sentence":"Cuối cùng cũng đủ 20 câu",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "B-adj",
-          "B-num",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Môn học là tập hợp những tri thức về một lĩnh vực chuyên môn cụ thể",
-       "tag":[
-          "B-mh-obj",
-          "I-mh-obj",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Môn học khủng nhất với học sinh có lẽ là hóa học",
-       "tag":[
-          "B-mh-obj",
-          "I-mh-obj",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Tuy nhiên đây cũng là môn học yêu thích của tôi.",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-mh-obj",
-          "I-mh-obj",
-          "o",
-          "o",
-          "o",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Tên tôi là Andrew Wilson. Tôi 30 tuổi và độc thân. Tôi thực chất đến từ San Francisco.",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "B-name",
-          "I-name",
-          "o",
-          "B-num",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-location",
-          "I-location"
-       ]
-    },
-    {
-       "sentence":"Chào các bạn, tên mình là Richard Walker, các cậu có thể gọi mình là Richard.",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-name",
-          "I-name",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-name"
-       ]
-    },
-    {
-       "sentence":"Chào các bạn, tên mình là Richard Walker và tôi đầu 20 tuổi.",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-name",
-          "I-name",
-          "o",
-          "o",
-          "o",
-          "B-num",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Tôi đã sống ở Thành phố Hồ Chí Minh được 5 năm, hoặc chúng ta còn có thể gọi là Sài Gòn.",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-location",
-          "I-location",
-          "I-location",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-location",
-          "I-location"
-       ]
-    },
-    {
-       "sentence":"Mình tên là Kiên và Mình sống ở Sài Gòn",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "B-name",
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-location",
-          "I-location"
-       ]
-    },
-    {
-       "sentence":"Bạn thích môn học gì",
-       "tag":[
-          "o",
-          "o",
-          "B-mh-obj",
-          "I-mh-obj",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Tôi tên là Nguyễn Trung Kiên và hôm nay tôi 17 tuổi",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "B-name",
-          "I-name",
-          "I-name",
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-num",
-          "o"
-       ]
-    },
-    {
-       "sentence":"Tôi rất thích môn vật lý",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-mh",
-          "I-mh"
-       ]
-    },
-    {
-       "sentence":"Bên cạnh đó, nó cũng là một trợ thủ đắc lực cho những môn học khác như Vật lý hoặc Hóa học",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-mh",
-          "I-mh",
-          "o",
-          "B-mh",
-          "I-mh"
-       ]
-    },
-    {
-       "sentence":"Trong nhiều môn học, tôi thực sự thích môn Toán.",
-       "tag":[
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "o",
-          "B-mh"
-       ]
-    },
-    {
-        "sentence":"Obama từng là tổng thống của nước Mỹ",
-        "tag":["B-name","o","o","o","o","o","o","B-country"]
-    },
-    {
-        "sentence":"Việt nam là nước ở Châu Á",
-        "tag":["B-country","I-country","o","o","o","o","o"]
-    },
-    {
-        "sentence":"Đề toán đợt này khó lắm",
-        "tag":["o","B-mh","o","o","B-adj","o"]
-    },
-    {
-        "sentence":"Bài tập Hóa thầy giao đợt này cực khó",
-        "tag":["o","o","B-mh","o","o","o","o","o","B-adj"]
-    },
-    {
-        "sentence":"John và những người bạn",
-        "tag":["B-name","o","o","o","o"]
-    }
- ]
+[{
+      "sentence": "Tôi đang làm Toán",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "B-mh"
+      ]
+   },
+   {
+      "sentence": "Văn học đôi khi dễ buồn ngủ",
+      "tag": [
+         "B-mh",
+         "I-mh",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Tố Hữu là một trong tác giả nổi tiếng trong văn học",
+      "tag": [
+         "B-name",
+         "I-name",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Toán lớp 12 thực sự rất hay",
+      "tag": [
+         "B-mh",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Tôi tên là Kiên",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "B-name"
+      ]
+   },
+   {
+      "sentence": "Tên tôi là John",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "B-name"
+      ]
+   },
+   {
+      "sentence": "Vật lý là nổi ác mộng",
+      "tag": [
+         "B-mh",
+         "I-mh",
+         "o",
+         "o",
+         "o",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Newton khám phá ra lực hấp dẫn",
+      "tag": [
+         "B-name",
+         "o",
+         "o",
+         "o",
+         "B-obj",
+         "I-obj",
+         "I-obj"
+      ]
+   },
+   {
+      "sentence": "Pomodoro giúp tiết kiệm thời gian của người học hơn",
+      "tag": [
+         "B-obj",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Feynman là nhà vật lý lừng danh nhất thời đại",
+      "tag": [
+         "B-name",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Gauss là bậc thầy của toán học",
+      "tag": [
+         "B-name",
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-mh",
+         "I-mh"
+      ]
+   },
+   {
+      "sentence": "Hóa học khó quá, không bao giờ lấy trên tám được",
+      "tag": [
+         "B-mh",
+         "I-mh",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Toán 12 khó với phần hàm số",
+      "tag": [
+         "B-mh",
+         "I-mh",
+         "o",
+         "o",
+         "o",
+         "B-obj",
+         "I-obj"
+      ]
+   },
+   {
+      "sentence": "Toán 11 rất phức tạp với xác xuất",
+      "tag": [
+         "B-mh",
+         "I-mh",
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-obj",
+         "I-obj"
+      ]
+   },
+   {
+      "sentence": "Xác xuất Bayes là phiên bản nâng cấp của xác xuất điều kiện",
+      "tag": [
+         "B-obj",
+         "I-obj",
+         "B-name",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-obj",
+         "I-obj",
+         "I-obj",
+         "I-obj"
+      ]
+   },
+   {
+      "sentence": "Chúng tôi đang hoạt động dự án cho cuộc thi TechGenius",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-name"
+      ]
+   },
+   {
+      "sentence": "Chạy deadline rất khắc nghiệt",
+      "tag": [
+         "o",
+         "B-obj",
+         "o",
+         "B-adj",
+         "I-adj"
+      ]
+   },
+   {
+      "sentence": "Nên đi ngủ trước 10 giờ",
+      "tag": [
+         "o",
+         "o",
+         "B-obj",
+         "o",
+         "B-num",
+         "B-time"
+      ]
+   },
+   {
+      "sentence": "Chơi nhạc cụ giúp thư giãn",
+      "tag": [
+         "o",
+         "B-obj",
+         "I-obj",
+         "o",
+         "o",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Chơi game rất tốt cho sức khỏe",
+      "tag": [
+         "B-v",
+         "B-obj",
+         "o",
+         "B-adj",
+         "o",
+         "B-obj",
+         "I-obj"
+      ]
+   },
+   {
+      "sentence": "Học toán nhiều làm tổn hại thời gian chơi",
+      "tag": [
+         "B-v",
+         "B-mh",
+         "B-adj",
+         "o",
+         "B-adj",
+         "I-adj",
+         "B-obj",
+         "I-obj",
+         "B-v"
+      ]
+   },
+   {
+      "sentence": "Rảnh thì nên coi Veritasium hay Ted",
+      "tag": [
+         "B-adj",
+         "o",
+         "o",
+         "B-v",
+         "B-name",
+         "o",
+         "B-name"
+      ]
+   },
+   {
+      "sentence": "Hôm nay quên quét nhà rồi",
+      "tag": [
+         "o",
+         "o",
+         "B-adj",
+         "B-v",
+         "B-obj",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Shopee miến phí giao hàng mọi lúc mọi nơi",
+      "tag": [
+         "B-name",
+         "B-adj",
+         "I-adj",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Vật lý là thứ mình suy ngẫm nhưng không làm",
+      "tag": [
+         "B-mh",
+         "I-mh",
+         "o",
+         "o",
+         "o",
+         "B-v",
+         "I-v",
+         "o",
+         "o",
+         "B-v"
+      ]
+   },
+   {
+      "sentence": "Bữa nào nên thử nấu ăn nhỉ",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-v",
+         "o",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Sao mấy thứ việt nam thường cringe quá không hiểu",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "B-country",
+         "I-country",
+         "o",
+         "B-adj",
+         "o",
+         "o",
+         "o"
+      ]
+   },
+   {
+      "sentence": "50 câu toán còn phải làm",
+      "tag": [
+         "B-num",
+         "o",
+         "B-mh",
+         "o",
+         "o",
+         "B-v"
+      ]
+   },
+   {
+      "sentence": "Cuối cùng cũng đủ 20 câu",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "B-adj",
+         "B-num",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Môn học là tập hợp những tri thức về một lĩnh vực chuyên môn cụ thể",
+      "tag": [
+         "B-mh-obj",
+         "I-mh-obj",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Môn học khủng nhất với học sinh có lẽ là hóa học",
+      "tag": [
+         "B-mh-obj",
+         "I-mh-obj",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Tuy nhiên đây cũng là môn học yêu thích của tôi.",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-mh-obj",
+         "I-mh-obj",
+         "o",
+         "o",
+         "o",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Tên tôi là Andrew Wilson. Tôi 30 tuổi và độc thân. Tôi thực chất đến từ San Francisco.",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "B-name",
+         "I-name",
+         "o",
+         "B-num",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-location",
+         "I-location"
+      ]
+   },
+   {
+      "sentence": "Chào các bạn, tên mình là Richard Walker, các cậu có thể gọi mình là Richard.",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-name",
+         "I-name",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-name"
+      ]
+   },
+   {
+      "sentence": "Chào các bạn, tên mình là Richard Walker và tôi đầu 20 tuổi.",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-name",
+         "I-name",
+         "o",
+         "o",
+         "o",
+         "B-num",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Tôi đã sống ở Thành phố Hồ Chí Minh được 5 năm, hoặc chúng ta còn có thể gọi là Sài Gòn.",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-location",
+         "I-location",
+         "I-location",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-location",
+         "I-location"
+      ]
+   },
+   {
+      "sentence": "Mình tên là Kiên và Mình sống ở Sài Gòn",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "B-name",
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-location",
+         "I-location"
+      ]
+   },
+   {
+      "sentence": "Bạn thích môn học gì",
+      "tag": [
+         "o",
+         "o",
+         "B-mh-obj",
+         "I-mh-obj",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Tôi tên là Nguyễn Trung Kiên và hôm nay tôi 17 tuổi",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "B-name",
+         "I-name",
+         "I-name",
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-num",
+         "o"
+      ]
+   },
+   {
+      "sentence": "Tôi rất thích môn vật lý",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-mh",
+         "I-mh"
+      ]
+   },
+   {
+      "sentence": "Bên cạnh đó, nó cũng là một trợ thủ đắc lực cho những môn học khác như Vật lý hoặc Hóa học",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-mh",
+         "I-mh",
+         "o",
+         "B-mh",
+         "I-mh"
+      ]
+   },
+   {
+      "sentence": "Trong nhiều môn học, tôi thực sự thích môn Toán.",
+      "tag": [
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "o",
+         "B-mh"
+      ]
+   },
+   {
+      "sentence": "Obama từng là tổng thống của nước Mỹ",
+      "tag": ["B-name", "o", "o", "o", "o", "o", "o", "B-country"]
+   },
+   {
+      "sentence": "Việt nam là nước ở Châu Á",
+      "tag": ["B-country", "I-country", "o", "o", "o", "o", "o"]
+   },
+   {
+      "sentence": "Đề toán đợt này khó lắm",
+      "tag": ["o", "B-mh", "o", "o", "B-adj", "o"]
+   },
+   {
+      "sentence": "Bài tập Hóa thầy giao đợt này cực khó",
+      "tag": ["o", "o", "B-mh", "o", "o", "o", "o", "o", "B-adj"]
+   },
+   {
+      "sentence": "John và những người bạn",
+      "tag": ["B-name", "o", "o", "o", "o"]
+   },
+   {
+      "sentence": "Thử mọi thứ đi Quân",
+      "tag": ["B-v", "B-obj", "I-obj", "o", "B-name"]
+   },
+   {
+      "sentence": "Thua rồi thì cố đánh lại",
+      "tag": ["o", "o", "o", "o", "B-v", "o"]
+   },
+   {
+      "sentence": "Truyện Kiều cực kì khó phân tích",
+      "tag": ["B-name", "I-name", "o", "o", "B-adj", "B-v", "I-v"]
+   }, {
+      "sentence": "Cây có màu xanh",
+      "tag": ["B-obj", "o", "o", "o"]
+   }, {
+      "sentence": "Tôi không thích lái xe",
+      "tag": ["o", "o", "B-v", "B-v", "B-obj"]
+   }, {
+      "sentence": "Tôi đã cố lắm rồi",
+      "tag": ["o", "o", "B-v", "o", "o"]
+   }, {
+      "sentence": "Biden là tổng thống hiện nay",
+      "tag": ["B-name", "o", "B-obj", "I-obj", "o", "o"]
+   }, {
+      "sentence": "Tôi đang sống ở Hồ Chí Minh",
+      "tag": ["o", "o", "B-v", "o", "B-name", "I-name", "I-name"]
+   }, {
+      "sentence": "Việt Nam là quốc tịch của tôi",
+      "tag": ["B-name", "I-name", "o", "B-obj", "I-obj", "o", "o"]
+   }, {
+      "sentence": "Bài văn này khó quá bỏ đi",
+      "tag": ["B-obj", "B-mh", "o", "B-adj", "o", "B-v", "o"]
+   }, {
+      "sentence": "Tôi mới mua đàn mới",
+      "tag": ["o", "o", "B-v", "B-obj", "o"]
+   }, {
+      "sentence": "Tôi đang hơi buồn",
+      "tag": ["o", "o", "o", "B-adj"]
+   }, {
+      "sentence": "Hôm nay trời đẹp nè",
+      "tag": ["o", "o", "B-obj", "B-adj", "o"]
+   }, {
+      "sentence": "Sắp phải đi ngủ rồi",
+      "tag": ["o", "o", "B-v", "B-v", "o"]
+   }, {
+      "sentence": "Nó thường ngủ trước 10 giờ",
+      "tag": ["o", "o", "B-v", "o", "B-num", "o"]
+   }, {
+      "sentence": "Lát đi mua sách để học",
+      "tag": ["o", "B-v", "B-v", "B-obj", "o", "B-v"]
+   }, {
+      "sentence": "Học online là xu hướng hiện giờ",
+      "tag": ["B-v", "o", "o", "o", "o", "o", "o"]
+   }, {
+      "sentence": "App này chưa có trên máy tính",
+      "tag": ["B-obj", "o", "o", "o", "o", "B-obj", "I-obj"]
+   }, {
+      "sentence": "Hệ mặt trời có 8 hành tinh",
+      "tag": ["o", "B-obj", "I-obj", "B-v", "B-num", "B-obj", "I-obj"]
+   }, {
+      "sentence": "Sau khi học 25 phút hãy nghỉ 5 phút", 
+      "tag": ["o", "o", "B-v", "B-num", "B-obj" ,"o", "B-v", "B-num", "B-obj"]}
+   ]
