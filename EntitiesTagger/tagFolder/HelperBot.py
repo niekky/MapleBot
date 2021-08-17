@@ -18,5 +18,3 @@ while True:
     print("--------------------------")
     count += 1
     print("Total : ",count)
-
-
