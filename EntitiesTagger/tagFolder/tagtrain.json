@@ -399,8 +399,8 @@
          "o",
          "o",
          "o",
-         "o",
-         "o"
+         "B-mh",
+         "I-mh"
       ]
    },
    {
@@ -494,7 +494,7 @@
          "I-location",
          "I-location",
          "o",
-         "o",
+         "B-num",
          "o",
          "o",
          "o",
@@ -509,7 +509,7 @@
       ]
    },
    {
-      "sentence": "Mình tên là Kiên và Mình sống ở Sài Gòn",
+      "sentence": "Mình tên là Kiên và mình sống ở Sài Gòn",
       "tag": [
          "o",
          "o",
@@ -517,7 +517,7 @@
          "B-name",
          "o",
          "o",
-         "o",
+         "B-v",
          "o",
          "B-location",
          "I-location"
@@ -527,7 +527,7 @@
       "sentence": "Bạn thích môn học gì",
       "tag": [
          "o",
-         "o",
+         "B-v",
          "B-mh-obj",
          "I-mh-obj",
          "o"
@@ -577,8 +577,8 @@
          "o",
          "o",
          "o",
-         "o",
-         "o",
+         "B-mh-obj",
+         "I-mh-obj",
          "o",
          "o",
          "B-mh",
@@ -593,8 +593,8 @@
       "tag": [
          "o",
          "o",
-         "o",
-         "o",
+         "B-mh-obj",
+         "I-mh-obj",
          "o",
          "o",
          "o",
@@ -609,15 +609,15 @@
    },
    {
       "sentence": "Việt nam là nước ở Châu Á",
-      "tag": ["B-country", "I-country", "o", "o", "o", "o", "o"]
+      "tag": ["B-country", "I-country", "o", "o", "o", "B-location", "I-location"]
    },
    {
       "sentence": "Đề toán đợt này khó lắm",
-      "tag": ["o", "B-mh", "o", "o", "B-adj", "o"]
+      "tag": ["B-mh-obj", "B-mh", "o", "o", "B-adj", "o"]
    },
    {
       "sentence": "Bài tập Hóa thầy giao đợt này cực khó",
-      "tag": ["o", "o", "B-mh", "o", "o", "o", "o", "o", "B-adj"]
+      "tag": ["B-mh-obj", "I-mh-obj", "B-mh", "o", "o", "o", "o", "o", "B-adj"]
    },
    {
       "sentence": "John và những người bạn",
@@ -651,7 +651,7 @@
       "tag": ["o", "o", "B-v", "o", "B-location", "I-location", "I-location"]
    }, {
       "sentence": "Việt Nam là quốc tịch của tôi",
-      "tag": ["B-location", "I-location", "o", "B-obj", "I-obj", "o", "o"]
+      "tag": ["B-country", "I-country", "o", "B-obj", "I-obj", "o", "o"]
    }, {
       "sentence": "Bài văn này khó quá bỏ đi",
       "tag": ["B-mh-obj", "B-mh", "o", "B-adj", "o", "B-v", "o"]
@@ -681,8 +681,30 @@
       "tag": ["B-obj", "o", "o", "o", "o", "B-obj", "I-obj"]
    }, {
       "sentence": "Hệ mặt trời có 8 hành tinh",
-      "tag": ["o", "B-obj", "I-obj", "B-v", "B-num", "B-obj", "I-obj"]
+      "tag": ["o", "B-obj", "I-obj", "o", "B-num", "B-obj", "I-obj"]
    }, {
       "sentence": "Sau khi học 25 phút hãy nghỉ 5 phút", 
-      "tag": ["o", "o", "B-v", "B-num", "B-obj" ,"o", "B-v", "B-num", "B-obj"]}
+      "tag": ["o", "o", "B-v", "B-num", "B-obj" ,"o", "B-v", "B-num", "B-obj"]
+   }, {
+      "sentence": "Tôi muốn đi chơi", 
+      "tag": ["o", "o", "B-v", "I-v"]
+   }, {
+      "sentence": "Tôi yêu bạn", 
+      "tag": ["o", "B-v", "o"]
+   }, {
+      "sentence": "Bạn có biết trường Đại học Bách Khoa không?", 
+      "tag": ["o", "o", "B-v", "B-obj", "B-obj" ,"I-obj", "B-name", "I-name", "o"]
+   }, {
+      "sentence": "Thời tiết nóng quá, tôi không học được.", 
+      "tag": ["B-obj", "I-obj", "B-adj", "o", "o" ,"o", "B-v", "o"]
+   }, {
+      "sentence": "Fennec ơi, tôi nản quá!", 
+      "tag": ["B-name", "o", "o", "B-v", "o"]
+   }, {
+      "sentence": "Chơi game 30 phút sau khi học có hợp lí không?", 
+      "tag": ["B-v", "B-obj", "B-num", "B-obj", "o" ,"o", "B-v", "o", "o", "o"]
+   }, {
+      "sentence": "Tỷ lệ thất nghiệp của trường Đại học Ngoại thương có cao không?", 
+      "tag": ["B-obj", "I-obj", "I-obj", "I-obj", "o" ,"B-obj", "B-obj", "I-obj", "o", "B-adj", "o"]
+   }
    ]
