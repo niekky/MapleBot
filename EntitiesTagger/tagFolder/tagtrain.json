@@ -768,5 +768,47 @@
    }, {
       "sentence": "Internet kết nối mọi người",
       "tag": ["B-obj", "B-v", "I-v", "o", "o"]
+   }, {
+      "sentence": "Học sinh có quyền được tranh luận trong giờ học",
+      "tag": ["B-obj", "I-obj", "o", "o", "B-v", "I-v", "o", "o", "o"]
+   }, {
+      "sentence": "Trường tôi vừa gửi thông báo học bổng đó.",
+      "tag": ["B-obj", "o", "o", "o", "o", "o", "B-obj", "I-obj", "o"]
+   }, {
+      "sentence": "Tôi tự hào là học sinh trường chuyên",
+      "tag": ["o", "B-v", "I-v", "o", "B-obj", "I-obj", "B-obj", "I-obj"]
+   }, {
+      "sentence": "Vào mục cài đặt để đổi tên nhé!",
+      "tag": ["o", "o", "B-obj", "I-obj", "o", "B-v", "I-v", "o"]
+   }, {
+      "sentence": "Bài này dễ thế!",
+      "tag": ["B-obj", "o", "B-adj", "o"]
+   }, {
+      "sentence": "Sau này tôi muốn trở thành giáo viên.",
+      "tag": ["o", "o", "o", "o", "B-v", "I-v", "B-obj", "I-obj"]
+   }, {
+      "sentence": "Du học châu Âu cần chuẩn bị gì?",
+      "tag": ["B-v", "I-v", "B-location", "I-location", "o", "B-v", "I-v", "o"]
+   }, {
+      "sentence": "Tôi cần tìm nơi học thêm Hóa",
+      "tag": ["o", "o", "B-v", "o", "B-v", "I-v", "B-mh"]
+   }, {
+      "sentence": "Nghỉ ngơi quá lâu có thể làm giảm tập trung",
+      "tag": ["B-v", "I-v", "o", "o", "o", "o", "o", "o", "o", "o"]
+   }, {
+      "sentence": "Học hành chăm chỉ thì mới thành công",
+      "tag": ["B-v", "I-v", "B-adj", "I-adj", "o", "o", "o", "o"]
+   }, {
+      "sentence": "Trung Quốc và Canada nước nào đông dân hơn",
+      "tag": ["B-country", "I-country", "o", "B-country", "I-country", "B-obj", "o", "o", "o", "o"]
+   }, {
+      "sentence": "Làm sinh viên mệt lắm",
+      "tag": ["o", "B-obj", "I-obj", "B-adj", "o"]
+   }, {
+      "sentence": "Ăn mì gói mãi ngán quá",
+      "tag": ["B-v", "B-obj", "I-obj", "o", "B-adj", "o"]
+   }, {
+      "sentence": "Concerntration span là gì",
+      "tag": ["B-obj", "I-obj", "o", "o"]
    }
 ]
