@@ -1,6 +1,6 @@
 import json
 
-with open ("E:/MLCourse/foxBot/foxPython/tagFolder/tagData.json","r",encoding="utf-8") as f:
+with open ("E:\HDNN\2021\TechRMIT\FoxBot\foxPython\EntitiesTagger\tagFolder\tagtrain.json","r",encoding="utf-8") as f:
     data=json.load(f)
 
 dict={}

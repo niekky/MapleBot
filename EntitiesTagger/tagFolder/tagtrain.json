@@ -602,8 +602,7 @@
          "o",
          "B-mh"
       ]
-   },
-   {
+   }, {
       "sentence": "Obama từng là tổng thống của nước Mỹ",
       "tag": ["B-name", "o", "o", "o", "o", "o", "o", "B-country"]
    },
@@ -706,5 +705,68 @@
    }, {
       "sentence": "Tỷ lệ thất nghiệp của trường Đại học Ngoại thương có cao không?", 
       "tag": ["B-obj", "I-obj", "I-obj", "I-obj", "o" ,"B-obj", "B-obj", "I-obj", "o", "B-adj", "o"]
+   }, {
+      "sentence": "Tôi sắp phải đi ngủ",
+      "tag": ["o", "o", "o", "B-v", "B-v"]
+   }, {
+      "sentence": "Tôi thích chơi game",
+      "tag": ["o", "B-v", "B-v", "B-obj"]
+   }, {
+      "sentence": "Đọc sách là 1 việc tốt",
+      "tag": ["B-v", "B-obj", "o", "B-num", "o", "o"]
+   }, {
+      "sentence": "Trời mưa làm mình buồn quá",
+      "tag": ["o", "B-obj", "o", "o", "B-adj", "o"]
+   }, {
+      "sentence": "Hãy nhớ bật đèn khi đọc sách",
+      "tag": ["o", "B-v", "B-v", "B-obj", "o", "B-v", "B-obj"]
+   }, {
+      "sentence": "Tập thể dục giúp bạn thoải mải hơn",
+      "tag": ["B-v", "I-v", "I-v", "B-v", "o", "B-adj", "I-adj", "o"]
+   }, {
+      "sentence": "Học code giúp bạn ngăn nắp hơn",
+      "tag": ["B-v", "B-obj", "B-v", "o", "o", "o", "o"]
+   }, {
+      "sentence": "Hãy nhớ uống nước thường xuyên",
+      "tag": ["o", "B-v", "B-v", "B-obj", "o", "o"]
+   }, {
+      "sentence": "Tiếng Anh là một trong những ngôn ngữ bạn phải học",
+      "tag": ["B-mh-obj", "I-mh-obj", "o", "B-num", "o", "o", "B-obj", "I-obj", "o", "o", "B-v"]
+   },
+   {
+      "sentence": "Hãy sắp xếp thời gian hợp lí",
+      "tag": ["o", "B-v", "I-v", "B-obj", "I-obj", "o", "o"]
+   }, {
+      "sentence": "Hãy thử trồng cây",
+      "tag": ["o", "B-v", "B-v", "B-obj"]
+   }, {
+      "sentence": "Nhìn màn hình máy tính thường xuyên không tốt",
+      "tag": ["B-v", "B-obj", "I-obj", "B-obj", "I-obj", "o", "o", "o", "o"]
+   }, {
+      "sentence": "Làm thông minh hơn không làm nhiều hơn",
+      "tag": ["B-v", "B-adj", "I-adj", "o", "o", "B-v", "o", "o"]
+   }, {
+      "sentence": "Nhiều người coi số 13 là số xui",
+      "tag": ["o", "o", "B-v",
+         "o", "B-num", "o", "o", "o"
+      ]
+   }, {
+      "sentence": "Hôm nay trời mưa cảm thấy mệt ghê",
+      "tag": ["o", "o", "B-obj", "I-obj", "B-v", "I-v", "B-adj", "o"]
+   }, {
+      "sentence": "Màu trắng với đen đi với mọi thứ",
+      "tag": ["B-obj", "I-obj", "o", "B-obj", "o", "o", "o", "o"]
+   }, {
+      "sentence": "16 chia hết cho 4",
+      "tag": ["B-num", "B-v", "o", "o", "B-num"]
+   }, {
+      "sentence": "Điện thoại là thứ thiết yếu",
+      "tag": ["B-obj", "I-obj", "o", "o", "o", "o"]
+   }, {
+      "sentence": "Dịch bệnh mang tới nhiều thảm họa",
+      "tag": ["B-obj", "I-obj", "B-v", "o", "o", "B-obj", "I-obj"]
+   }, {
+      "sentence": "Internet kết nối mọi người",
+      "tag": ["B-obj", "B-v", "I-v", "o", "o"]
    }
-   ]
+]
