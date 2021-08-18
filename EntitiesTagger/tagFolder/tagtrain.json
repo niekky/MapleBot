@@ -96,8 +96,8 @@
          "o",
          "o",
          "o",
-         "o",
-         "o",
+         "B-v",
+         "I-v",
          "o",
          "o",
          "o",
@@ -143,7 +143,7 @@
          "o",
          "o",
          "o",
-         "o",
+         "B-num",
          "o"
       ]
    },
@@ -347,7 +347,7 @@
       "sentence": "50 câu toán còn phải làm",
       "tag": [
          "B-num",
-         "o",
+         "B-mh-obj",
          "B-mh",
          "o",
          "o",
@@ -362,7 +362,7 @@
          "o",
          "B-adj",
          "B-num",
-         "o"
+         "B-mh-obj"
       ]
    },
    {
@@ -495,7 +495,7 @@
          "I-location",
          "o",
          "B-num",
-         "o",
+         "B-time",
          "o",
          "o",
          "o",
@@ -590,17 +590,7 @@
    },
    {
       "sentence": "Trong nhiều môn học, tôi thực sự thích môn Toán.",
-      "tag": [
-         "o",
-         "o",
-         "B-mh-obj",
-         "I-mh-obj",
-         "o",
-         "o",
-         "o",
-         "o",
-         "o",
-         "B-mh"
+      "tag": ["o","o", "B-mh-obj", "I-mh-obj", "o", "o", "o", "o", "o", "B-mh"
       ]
    }, {
       "sentence": "Obama từng là tổng thống của nước Mỹ",
@@ -668,7 +658,7 @@
       "tag": ["o", "o", "B-v", "B-v", "o"]
    }, {
       "sentence": "Nó thường ngủ trước 10 giờ",
-      "tag": ["o", "o", "B-v", "o", "B-num", "o"]
+      "tag": ["o", "o", "B-v", "o", "B-num", "B-time"]
    }, {
       "sentence": "Lát đi mua sách để học",
       "tag": ["o", "B-v", "B-v", "B-obj", "o", "B-v"]
@@ -683,7 +673,7 @@
       "tag": ["o", "B-obj", "I-obj", "o", "B-num", "B-obj", "I-obj"]
    }, {
       "sentence": "Sau khi học 25 phút hãy nghỉ 5 phút", 
-      "tag": ["o", "o", "B-v", "B-num", "B-obj" ,"o", "B-v", "B-num", "B-obj"]
+      "tag": ["o", "o", "B-v", "B-num", "B-obj" ,"o", "B-v", "B-num", "B-time"]
    }, {
       "sentence": "Tôi muốn đi chơi", 
       "tag": ["o", "o", "B-v", "I-v"]
@@ -699,9 +689,6 @@
    }, {
       "sentence": "Fennec ơi, tôi nản quá!", 
       "tag": ["B-name", "o", "o", "B-v", "o"]
-   }, {
-      "sentence": "Chơi game 30 phút sau khi học có hợp lí không?", 
-      "tag": ["B-v", "B-obj", "B-num", "B-obj", "o" ,"o", "B-v", "o", "o", "o"]
    }, {
       "sentence": "Tỷ lệ thất nghiệp của trường Đại học Ngoại thương có cao không?", 
       "tag": ["B-obj", "I-obj", "I-obj", "I-obj", "o" ,"B-obj", "B-obj", "I-obj", "o", "B-adj", "o"]
@@ -732,8 +719,7 @@
    }, {
       "sentence": "Tiếng Anh là một trong những ngôn ngữ bạn phải học",
       "tag": ["B-mh-obj", "I-mh-obj", "o", "B-num", "o", "o", "B-obj", "I-obj", "o", "o", "B-v"]
-   },
-   {
+   }, {
       "sentence": "Hãy sắp xếp thời gian hợp lí",
       "tag": ["o", "B-v", "I-v", "B-obj", "I-obj", "o", "o"]
    }, {
@@ -747,9 +733,7 @@
       "tag": ["B-v", "B-adj", "I-adj", "o", "o", "B-v", "o", "o"]
    }, {
       "sentence": "Nhiều người coi số 13 là số xui",
-      "tag": ["o", "o", "B-v",
-         "o", "B-num", "o", "o", "o"
-      ]
+      "tag": ["o", "o", "B-v", "o", "B-num", "o", "o", "o"]
    }, {
       "sentence": "Hôm nay trời mưa cảm thấy mệt ghê",
       "tag": ["o", "o", "B-obj", "I-obj", "B-v", "I-v", "B-adj", "o"]
@@ -810,5 +794,41 @@
    }, {
       "sentence": "Concerntration span là gì",
       "tag": ["B-obj", "I-obj", "o", "o"]
+   }, {
+      "sentence": "Chơi game 30 phút sau khi học có hợp lí không?", 
+      "tag": ["B-v", "B-obj", "B-num", "B-time", "o" ,"o", "B-v", "o", "o", "o"]
+   }, {
+      "sentence": "Nhật Bản đẹp không?", 
+      "tag": ["B-country", "I-country", "o", "o"]
+   }, {
+      "sentence": "Tôi thích đọc truyện tranh", 
+      "tag": ["o", "o", "B-v", "B-obj", "O-obj"]
+   }, {
+      "sentence": "Học ở Trung Quốc áp lực lắm!", 
+      "tag": ["o", "o", "B-country", "I-country", "B-adj" ,"I-adj", "o"]
+   }, {
+      "sentence": "Tôi không thấy cây bút của tôi", 
+      "tag": ["o", "o", "o", "B-mh-obj", "I-mh-obj" ,"o", "o"]
+   }, {
+      "sentence": "Mỹ là một nước đa bang", 
+      "tag": ["B-country", "o", "B-num", "B-obj", "o" ,"B-obj"]
+   }, {
+      "sentence": "Bây giờ là 2 giờ 40 phút", 
+      "tag": ["o", "o", "o", "B-num", "B-time" ,"B-num", "B-time"]
+   }, {
+      "sentence": "Nga, Canada và Trung Quốc là 3 nước có diện tích lớn nhất thế giới", 
+      "tag": ["B-country", "B-country", "o", "B-country", "I-country" ,"o", "B-num", "B-obj", "o", "B-mh-obj", "I-mh-obj", "o", "o", "B-obj", "I-obj"]
+   }, {
+      "sentence": "Tôi muốn có một chiếc kính thiên văn", 
+      "tag": ["o", "o", "o", "B-num", "o" ,"B-mh-obj", "I-mh-obj", "I-mh-obj"]
+   }, {
+      "sentence": "Này Thanh Thảo ơi", 
+      "tag": ["o", "B-name", "I-name", "o"]
+   }, {
+      "sentence": "Tôi không thích môn Công nghệ", 
+      "tag": ["o", "o", "o", "B-mh-obj", "B-mh" ,"I-mh"]
+   }, {
+      "sentence": "Tôi cần tiền để mua họa cụ để học", 
+      "tag": ["o", "o", "B-obj", "o", "B-v" ,"B-mh-obj", "I-mh-obj", "o", "B-v"]
    }
 ]
