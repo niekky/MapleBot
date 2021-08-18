@@ -9,7 +9,8 @@
                 "Ai ở đó thế ?",
                 "Có ai ở đó không thế ?",
                 "Tên mình là Kiên",
-                "Mình tên là Nick"
+                "Mình tên là Nick",
+                "Fennec ơi"
             ],
      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
      "entities": ["B-name"]
@@ -56,7 +57,7 @@
                     "Mình có thể gọi bạn sao nhỉ",
                     "Tên cậu là gì thế"
                 ],
-     "responses": ["SmartFox :>", "Mình tên là Fox", "Fox,SmartFox"]
+     "responses": ["SmartFox :>", "Mình tên là Fox.", "Fox, SmartFox"]
     },
     {"tag": "aboutme",
      "patterns":[
