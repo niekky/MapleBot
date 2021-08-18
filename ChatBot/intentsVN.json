@@ -129,8 +129,6 @@
             "negative":[]
         },
         "entities":["B-obj","B-mh","B-location","B-name"]
-        
     }
-
 ]
 }
