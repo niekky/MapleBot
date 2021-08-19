@@ -13,17 +13,17 @@ while True:
     print("Tag :")
     tag = input()
     data["tag"] = tag
-    print("Patterns (type aa to stop):")
+    print("Patterns (type ff to stop):")
     #Pattern
     while True:
         pattern = input()
-        if pattern == "aa": break
+        if pattern == "ff": break
         data["patterns"].append(pattern)
     #Responses
-    print("Patterns (type aa to stop):")
+    print("Patterns (type ff to stop):")
     while True:
         response = input()
-        if response == "aa": break
+        if response == "ff": break
         data["responses"].append(response)
     listz.append(str(data).replace("\'","\""))
     print("---------------------")
