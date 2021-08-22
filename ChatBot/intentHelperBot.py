@@ -20,7 +20,7 @@ while True:
         if pattern == "ff": break
         data["patterns"].append(pattern)
     #Responses
-    print("Patterns (type ff to stop):")
+    print("Responses (type ff to stop):")
     while True:
         response = input()
         if response == "ff": break
