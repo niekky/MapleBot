@@ -115,7 +115,8 @@
                 "Giúp mình được không",
                 "Giúp mình với",
                 "Giúp mình cái này được không",
-                "Câu này khó quá, cứu tôi với"            ],
+                "Câu này khó quá, cứu tôi với"
+            ],
             "responses": ["Thử cách cách này xem", "Bạn xem thử đi"],
             "entities": ["B-mh", "Topic"],
             "askback": ["Bạn gặp vấn đề gì vậy", "Mình biết thêm vấn đề của bạn được không"]
@@ -165,7 +166,6 @@
                 "Bạn hiểu tiếng Anh không",
                 "Mình biết 3 ngôn ngữ nè",
                 "Sao bạn không nói được tiếng Anh",
-                "â",
                 "Tiếng Pháp khó không",
                 "Mình muốn học tiếng Tây Ban Nha",
                 "Tôi không biết tiếng Đức"
@@ -186,38 +186,79 @@
         },
         {
             "tag": "question_for_user",
-            "patterns": ["Bạn thường thắc mắc gì", "Bạn có gì hỏi mình không", "Bạn hay nghĩ về điều gì", "Nếu ở một mình bạn thường nghĩ gì"],
+            "patterns": ["Bạn có thắc mắc hay câu hỏi gì không", "Bạn biết mình muốn làm gì chưa", "Bạn có câu hỏi gì không", "Bạn thường thắc mắc gì", "Bạn có gì hỏi mình không", "Bạn hay nghĩ về điều gì", "Nếu ở một mình bạn thường nghĩ gì"],
             "responses": ["Mình thường tự hỏi mục tiêu mình là gì", "Đôi khi mình hay ngẫm nghĩ mình muốn làm gì", "Mình hay thắc mắc bản thân mình có phải là bot không"]
         }, {
             "tag": "what_to_study",
-            "patterns": ["Mình nên học gì", "Bây giờ kĩ năng gì là quan trọng nhất", "Mình rảnh quá bạn nghĩ mình nên làm gì", "Nếu có nhiều thời gian bạn sẽ học gì"],
+            "patterns": ["Bạn có tip mình nên làm gì không", "Mấy bạn của bạn đang học gì thế", "Trend bây giờ người ta học gì nhỉ", "Mình nên học gì", "Bây giờ kĩ năng gì là quan trọng nhất", "Mình rảnh quá bạn nghĩ mình nên làm gì", "Nếu có nhiều thời gian bạn sẽ học gì"],
             "responses": ["Mình nghĩ bạn nên thử google những kĩ năng phổ biến hiện giờ như kĩ năng lãnh đạo", "Dạo này mình thấy nhiều nhiều người học nấu ăn, code, đàn, làm vườn,... bạn hãy thử xem", "Trên Udemy, Coursera, Udacity, Masterclass cũng có nhiều khóa hay đấy bạn nên xem thử"]
         },
         {
             "tag": "study_tip",
-            "patterns": ["Bạn có tip học tập nào không", "Làm sao để mình học tốt hơn", "Mình muốn nhớ lâu hơn", "Mình học không vào", "Mình muốn học hiệu quả hơn"],
+            "patterns": ["Mình học không vào", "Làm sao học hiệu quả", "Bạn có tip học tập nào không", "Làm sao để mình học tốt hơn", "Mình muốn nhớ lâu hơn", "Mình học không vào", "Mình muốn học hiệu quả hơn"],
             "responses": ["Mình thấy bạn nên dùng thứ phương pháp Pomodoro ( học 25 phút nghỉ 5 phút )", "Khi học xong bạn thử giảng lại cho người khác xem", "Bạn nên ghi chú khi học", "Trên những page như reddit có những lời khuyên hữu ích lắm đó bạn"]
         }, {
             "tag": "music",
-            "patterns": ["Bạn thường nghe nhạc gì", "Dạo này người ta nghe nhạc gì nhỉ", "Nên nghe nhạc khi học không", "Bạn thích nghe nhạc không"],
+            "patterns": ["Nhạc dạo này nghe chán quá", "Mình muốn nghe bài khác", "Bạn thường nghe nhạc gì", "Dạo này người ta nghe nhạc gì nhỉ", "Nên nghe nhạc khi học không", "Bạn thích nghe nhạc không"],
             "responses": ["Dạo này mình thấy ai cũng nghe pop hết", "Thấy ai cũng nghe pop nhưng mình thì thích nghe classical hơn"]
         }, {
             "tag": "opinion_social",
-            "patterns": ["Bạn có thông tin liên lạc trên mạng xã hội không", "Bạn thường lên mạng xã hội không", "Bạn thường chơi gì", "Bạn có dùng facebook, instagram hay tiktok không"],
+            "patterns": ["Mình nghiện mạng xã hội", "Mình thấy mình dùng mạng xã hội nhiều quá", "Bạn có thông tin liên lạc trên mạng xã hội không", "Bạn thường lên mạng xã hội không", "Bạn thường chơi gì", "Bạn có dùng facebook, instagram hay tiktok không"],
             "responses": ["Mình không dùng mạng xã hội, nó dễ gây nghiện quá", "Mình thích đọc sách, dùng youtube hơn là những trang mạng xã hội kia"]
         },
         {
             "tag": "sport",
-            "patterns": ["Bạn có chơi thể thao không", "Bạn thường ra đường không", "Bạn thích sport không", "Bạn thích môn thể thao nào nhất"],
+            "patterns": ["Bạn thấy mình nên chơi thể thao không", "Mình ít chơi thể thao quá", "Bạn có chơi thể thao không", "Bạn thường ra đường không", "Bạn thích sport không", "Bạn thích môn thể thao nào nhất"],
             "responses": ["Mình thích cầu lông với bơi nhất", "Dạo này dịch quá mình không chơi thể thao được", "Mình thích bóng bàn nhưng mình cũng đang muốn thử tennis lắm"]
         }, {
             "tag": "travel",
-            "patterns": ["Bạn thích nước nào", "Bạn thích đi du lịch không", "Mình muốn được đi du lịch lắm", "Đi du lịch tốn tiền quá"],
+            "patterns": ["Covid không đi du lịch được chán ghê", "Ba mẹ mình không cho đi du lịch", "Mình du lịch nhiều quá chả biết đi đâu nữa", "Du lịch nơi nào cũng như nhau", "Bạn thích nước nào", "Bạn thích đi du lịch không", "Mình muốn được đi du lịch lắm", "Đi du lịch tốn tiền quá"],
             "responses": ["Đi du lịch đáng lắm bạn, có được những trải nghiệm quý giá như khi đi Singapore mình mới thấy được bot người ta xịn hơn mình nhiều", "Mình thích đi du lịch lắm nhất là những nước châu Âu kiến trúc người ta đẹp quá trời"]
         }, {
             "tag": "movie",
-            "patterns": ["Bạn có thích xem phim không", "Review phim hay quá bạn", "Dạo này mình coi phim nhiều"],
+            "patterns": ["Phim nào cũng như nhau", "Mình thấy coi phim phí thời gian", "Bạn có thích xem phim không", "Review phim hay quá bạn", "Dạo này mình coi phim nhiều"],
             "responses": ["Mình thích coi mấy bộ comedy như friends, the big bang theory, the office khá là đáng thời gian", "Mình coi phim nhiều quá đôi khi cũng khá mất thời gian", "Chán là mình coi phim à"]
+        },
+        {
+            "tag": "flower",
+            "patterns": ["Bạn thích hoa không", "Bạn có trồng hoa chưa", "Mình thích nhận hoa", "Bạn có tặng hoa cho ai chưa", "Hoa đẹp ghê", "Nhiều loại hoa quá nhớ tên hết không nổi", "Hoa dễ héo quá", "Hoa nhiều màu sắc", "Hoa mắc quá"],
+            "responses": ["Mình không thích hoa lắm nó đẹp mà héo nhanh quá", "Hoa đẹp ấy nhưng mình không có bình đựng", "Mình chỉ buồn là khi ai đó tặng hoa nó héo sớm quá xong phải bỏ nữa tiếc lắm"]
+        }, {
+            "tag": "vật lý",
+            "patterns": ["Môn vật lí khó quá", "Mình ghét nhất môn vật lí", "Vật lí học xong ra quên hết", "Vật lí hay quá", "Mình yêu vật lí", "Bạn thích vật lí không"],
+            "responses": ["Mình yêu vật lí lí thuyết chứ mình không thích toán nha", "Mình thấy vật lí khó học nhưng đôi khi cũng thú vị", "Do trường dạy vật lí hơi máy móc thôi chứ mình thấy nó hay lắm nha"]
+        }, {
+            "tag": "food",
+            "patterns": ["Bạn thích ăn gì", "Mình thấy món nào cũng ngon", "Mình thích ra tiệm ăn", "Ở nhà ăn ngán rồi", "Nhiều món ăn ngon quá", "Lâu lâu thèm pizza ghê á"],
+            "responses": ["Bản thân mình thì mình ăn theo mood à", "Mình hay ăn theo mood nhưng mình nghĩ ăn theo một diet rõ ràng thì vẫn tốt hơn", "Đối với mình mọi ngày đều là cheat day"]
+        }, {
+            "tag": "regret",
+            "patterns": ["Bạn có hối hận điều gì không", "Mình ân hận quá", "Mình thấy mình phí thời gian quá", "Mình hối hận vì làm vậy quá", "Còn nhiều thứ mình muốn làm"],
+            "responses": ["Quan trọng là mình hướng về tương lai thôi bạn", "Bạn hãy cố positive lên nha", "Rồi mọi chuyện cũng qua thôi cố gắng lên nhé"]
+        }, {
+            "tag": "newspaper",
+            "patterns": ["Bạn có đọc báo không", "Bạn có đọc tin không", "Mình hay lướt mấy trang báo trên mạng", "Dạo này có gì hay ho không ta", "Bạn có xem thời sự không", "Tin tức hôm nay "],
+            "responses": ["Mình không thường đọc báo lắm nhưng mình nghĩ đó là một việc nên làm", "Đọc báo giúp bạn nắm bắt tình hình nên mình rất khuyến khích nha", "Nhiều khi thấy tin tức ngày nào cũng như nhau nên mình hơi ngán"]
+        }, {
+            "tag": "shopping ",
+            "patterns": ["Bạn hay shopping không", "Bạn hay mua đồ không", "Bạn thường mua sắm không", "Mình hay đi siêu thị mua đồ", "Sáng hay đi chợ", "Bạn có shop online không"],
+            "responses": ["Mình toàn mua đò trên mạng không à lúc nào cũng được free ship", "Mình hơi lười ra đường nên mình lên mạng mua đồ là chủ yếu", "Giờ đi siêu thị hay đi chợ mất thời gian lắm lên mạng nhanh hơn nhiều"]
+        }, {
+            "tag": "school",
+            "patterns": ["Mình ghét đi học", "Bạn thích đi học không", "Đi học mệt quá", "Mình thích học online", "Học khổ quá", "Học tốn thời gian quá", "Học tốn tiền quá"],
+            "responses": ["Đầu tư vào bản thân là đầu tư tốt nhất", "Cố gắng lên bạn ", "Học đôi khi hơi mệt mỏi nhưng sau này sẽ giá trị lắm bạn"]
+        }, {
+            "tag": "drawing",
+            "patterns": ["Bạn thích vẽ không", "Bạn giỏi vẽ không", "Mình thích vẽ", "Lúc rảnh là mình vẽ", "Vẽ giúp mình thư giãn"],
+            "responses": ["Mình không thường vẽ lắm nhưng mà khi nhập tâm rồi thì không ngừng được", "Mình nghĩ ai cũng nghĩ là bản thân họ không biết vẽ nhưng là vì họ chưa thử thôi"]
+        }, {
+            "tag": "cooking",
+            "patterns": ["Bạn thích nấu ăn không", "Bạn hay vào bếp không", "Bạn có thường làm đồ ăn không", "Mình hay nấu nướng"],
+            "responses": ["Mình thích nấu ăn nhưng rửa mệt quá", "Nấu ăn vui ấy nhưng lỡ nấu dở thì mệt"]
+        }, {
+            "tag": "future",
+            "patterns": ["Tương lai bạn muốn làm gì", "Bạn có dự định gì sau này", "Mình thấy lú khi nghĩ về tương lai", "Mình không biết tương lai này ra sao nữa", "Tương lai mình mù mịt quá", "Sau này mình không biết làm gì"],
+            "responses": ["Hiện giờ mình cũng không chắc tương lai mình sẽ làm gì nữa", "Hiện tại mình chưa chắc nên mình chưa nghĩ về tương lai nhiều", "Tương lai mình ra sao thì mình cũng chịu"]
         }
 
 
