@@ -406,73 +406,19 @@
  },
  {
     "sentence": "Mình tên là Kiên và mình sống ở Sài Gòn",
-    "tag": [
-       "o",
-       "o",
-       "o",
-       "B-name",
-       "o",
-       "o",
-       "o",
-       "o",
-       "B-location",
-       "I-location"
-    ]
+    "tag": ["o", "o", "o", "B-name", "o", "o", "o", "o", "B-location", "I-location"]
  },
  {
     "sentence": "Tôi tên là Nguyễn Trung Kiên và hôm nay tôi 17 tuổi",
-    "tag": [
-       "o",
-       "o",
-       "o",
-       "B-name",
-       "I-name",
-       "I-name",
-       "o",
-       "o",
-       "o",
-       "o",
-       "B-num",
-       "o"
-    ]
+    "tag": ["o", "o", "o", "B-name", "I-name", "I-name", "o", "o", "o", "o", "B-num", "o"]
  },
  {
     "sentence": "Tôi rất thích môn vật lý",
-    "tag": [
-       "o",
-       "o",
-       "o",
-       "o",
-       "B-mh",
-       "I-mh"
-    ]
+    "tag": ["o", "o", "o", "o", "B-mh", "I-mh"]
  },
  {
     "sentence": "Bên cạnh đó, nó cũng là một trợ thủ đắc lực cho những môn học khác như Vật lý hoặc Hóa học",
-    "tag": [
-       "o",
-       "o",
-       "o",
-       "o",
-       "o",
-       "o",
-       "o",
-       "o",
-       "o",
-       "o",
-       "o",
-       "o",
-       "o",
-       "o",
-       "o",
-       "o",
-       "o",
-       "B-mh",
-       "I-mh",
-       "o",
-       "B-mh",
-       "I-mh"
-    ]
+    "tag": ["o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "B-mh", "I-mh", "o", "B-mh", "I-mh"]
  },
  {
     "sentence": "Trong nhiều môn học, tôi thực sự thích môn Toán.",
@@ -599,6 +545,11 @@
  {
     "sentence": "Môn Sinh tôi không nuốt nỗi", 
     "tag": ["o", "B-mh", "o", "o", "o" ,"o"]
+ }, {
+   "sentence": "Chưa tiết lộ lịch trình tới Việt Nam của Tổng thống Donald Trump", 
+   "tag": ["o", "o", "o", "o", "o" ,"o", "B-country", "I-country", "o", "o", "o", "B-name", "I-name"]
+ }, {
+    
  }
  ]
  

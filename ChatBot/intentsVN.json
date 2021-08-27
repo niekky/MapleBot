@@ -147,7 +147,9 @@
                 "Bạn biết chưa",
                 "Bạn có bao giờ chưa",
                 "Bạn đã từng",
-                "Bạn thử chưa"
+                "Bạn thử chưa",
+                "Bạn có biết",
+                "Bạn từng nghe"
             ],
             "responses": {
                 "askback": ["@entity là gì thế ?", "Mình chưa hiểu về @entity lắm", "@entity là sao vậy"],
