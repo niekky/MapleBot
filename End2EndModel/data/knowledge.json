@@ -1,0 +1,59 @@
+{
+    "food":{
+        "pizza":{
+            "favorite":"yes",
+            "info":["ngon","rất ngon"],
+            "xuất xứ":"Ý"
+        },
+        "phở":{
+            "favorite":"yes",
+            "info":["ngon","ngon hơn nữa"],
+            "xuất xứ":"Việt Nam"
+        },
+        "đậu xanh":{
+            "favorite":"no",
+            "info":["không ngon"]
+        }
+    },
+    "môn học":{
+        "toán":{
+            "favorite":"yes",
+            "info":["tính toán","phương trình","đạo hàm"],
+            "define":"Toán học là khoa học về các mô hình trừu tượng tổng quát, dùng để biểu diễn và phân tích mọi thứ trên thế giới."
+        },
+        "ngữ văn":{
+            "favorite":"no",
+            "info":["thơ","truyện"],
+            "define":"Văn học là dạng văn bản được coi là một hình thức nghệ thuật, hoặc bất kỳ một bài viết nào được coi là có giá trị nghệ thuật hoặc trí tuệ"
+        },
+        "tin học":{
+            "favorite":"yes",
+            "info":["python","java"],
+            "define":"Là một ngành khoa học chuyên nghiên cứu quá trình tự động hóa việc tổ chức, lưu trữ, xử lý và truyền dẫn thông tin của một hệ thống máy tính cụ thể"
+        }
+    },
+    "âm nhạc": {
+        "guitar":{
+            "favorite":"no",
+            "info":["đau tay"]
+        },
+        "piano":{
+            "favorite":"yes",
+            "info":["dễ chơi"]
+        },
+        "trống":{
+            "favorite":"yes",
+            "info":["chơi khá cuốn"]
+        }
+    },
+    "học tập":{
+        "pomodoro":{
+            "info":["tiết kiệm thời gian","sử dụng thời gian khoa học"],
+            "define":"Pomodoro là 1 phương pháp quản lí thời gian để nâng cao tối đa sự tập trung trong công việc"
+        },
+        " cách feynman":{
+            "info":["rất hay trong việc tự học","làm mình dễ hiểu"],
+            "define":"Kỹ thuật Feynman là một phương pháp giúp chúng ta ghi nhớ những gì đã đọc bằng cách sử dụng các khái niệm liên kết và xây dựng. Đó là một công cụ để ghi nhớ những gì bạn đã đọc bằng cách giải thích nó bằng ngôn ngữ đơn giản, dễ hiểu."
+        }
+    }
+}
