@@ -127,7 +127,18 @@
                     "Bạn biết chưa",
                     "Bạn có bao giờ chưa",
                     "Bạn đã từng",
-                    "Bạn thử làm chưa"
+                    "Bạn thử làm chưa",
+                    "Biết tôi là ai không",
+                    "Bạn thấy phim đó chưa vậy",
+                    "Bạn có tin vào ma quỷ",
+                    "Bạn có bao giờ thấy vật thể bay không xác định chưa",
+                    "Mèo có thể nhảy gấp sáu lần chiều dài của chúng không",
+                    "Bạn có thích sữa lắc sô cô la không",
+                    "Hôm qua bạn có ở đầm lầy không",
+                    "Bạn có thấy Bigfoot không",
+                    "Bạn có tin vào ông già Noel",
+                    "Bạn có thể nhìn ra phía sau đầu của bạn không",
+                    "Bạn có biết phương trình Schrödinger của lý thuyết lượng tử không"
                 ],
         "responses":{
             "askback":["@entity là gì thế ?","Mình chưa hiểu về @entity lắm","@entity là gì vậy"],
@@ -143,35 +154,11 @@
             "À thôi",
             "Khỏi cần thiết đâu",
             "Khỏi cần",
-            "Thôi được rồi"   
+            "Thôi được rồi",
+            "Không sao mình làm được rồi",
+            "À không sao đâu nha"   
         ],
         "responses":["Oh okayyy","akay","okk"]
-    },
-    {
-        "tag": "language",
-        "patterns": [
-            "Bạn biết nói tiếng Việt không",
-            "Bạn biết mấy ngôn ngữ",
-            "Bạn hiểu tiếng Anh không",
-            "Mình biết 3 ngôn ngữ nè",
-            "Sao bạn không nói được tiếng Anh",
-            "Tiếng Pháp khó không",
-            "Mình muốn học tiếng Tây Ban Nha",
-            "Tôi không biết tiếng Đức"
-        ],
-        "responses": ["Mình chỉ nói được tiếng Việt", "Cho tới hiện tại mình chỉ nói được tiếng Việt"]
-    },
-    {
-        "tag": "hobby",
-        "patterns": [
-            "Bạn thích làm gì",
-            "Lúc rảnh bạn làm gì",
-            "Nếu chán bạn sẽ làm gì",
-            "Nếu có nhiều thời gian bạn chơi gì",
-            "Có việc nào bạn thích làm không",
-            "Bạn vui nhất khi làm gì"
-        ],
-        "responses": ["Lúc rảnh mình thích đọc sách", "Nếu có thời gian thì mình sẽ tập đàn hay học code", "Mình thích coi phim hay lướt youtube, facebook","Mình thích không làm gì cả"]
     },
     {
         "tag": "question_from_user",
@@ -189,7 +176,13 @@
             "Sách gì bạn thích đọc nhất",
             "Viete là gì thế",
             "Bạn làm bằng cách nào thế",
-            "Cách nào để đi xa hơn"
+            "Cách nào để đi xa hơn",
+            "Bạn thích làm gì",
+            "Lúc rảnh bạn làm gì",
+            "Nếu chán bạn sẽ làm gì",
+            "Nếu có nhiều thời gian bạn chơi gì",
+            "Có việc nào bạn thích làm không",
+            "Bạn vui nhất khi làm gì"
         ],
         "responses": ["Nè", "Chắc là cái này", "Xem thử đi","Check it out"]
     },
