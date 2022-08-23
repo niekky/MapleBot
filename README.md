@@ -1,4 +1,4 @@
-# MableBot
+# MapleBot
 
 ## Still WIP
 ### Overview
